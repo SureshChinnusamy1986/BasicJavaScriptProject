@@ -52,3 +52,39 @@ console.log('EligibleForLoan ' +EligibleForLoan )
 //truthy value 
 console.log(false||'suresh')
 console.log(false || 1||2)
+console.log(false || null)
+
+//real time scenario
+
+var userColor = 'red' ;
+var defaultColor = 'White' ;
+var finalColor = userColor || defaultColor
+
+
+
+//bitwise operator
+
+//if else 
+//switch case 
+
+// below 35 fail 
+// between 35 to 60 second clss
+// between 60 to 75 first class
+// above 75 distinct 
+
+var mark1=-10
+
+if(mark1>=0 && mark1<35)
+console.log("Opps..Fail")
+else if (mark1>=36 && mark1<=60)
+console.log("Second Class")
+else if(mark1<=61 && mark1>=75)
+console.log("First Class")
+else if(mark1>=75 && mark1<=100)
+console.log("Distinct")
+else
+console.log("Enter the value within 0 to 100");
+
+
+
+

@@ -50,4 +50,4 @@ function add (num1,num2){
 
 let sum = add(12,12);
 
-console.log ('sum ' +sum)
+console.log ('sum ' +sum);
