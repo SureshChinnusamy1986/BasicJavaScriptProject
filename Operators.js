@@ -85,6 +85,42 @@ console.log("Distinct")
 else
 console.log("Enter the value within 0 to 100");
 
+//for/ while 
+
+for(let i=0; i<5; i++)
+{
+    console.log(i);
+}
+
+//while 
+let i=2
+while(i<5)
+{
+    console.log(i)
+    i++
+}
+
+
+const persons = {
+    name: 'Suresh',
+    age : 33
+}
+
+for (let key in persons){
+    console.log(key,persons[key])
+}
+
+
+//Array
+
+const colors = ['blue','red','green']
+
+
+for (var index in colors)
+console.log(index,colors[index])
+
+//for of loop 
+
 
 
 
